@@ -9,7 +9,8 @@
     },
     {
       "key": "routes",
-      "name": "List of routes following the React Router route patterns.  [Example Here](https://github.com/ava-labs/posthog-route-censor-plugin/blob/main/src/assets/exampleRoutes.json).  See package [README](https://github.com/ava-labs/posthog-route-censor-plugin) for more details.",
+      "name": "List of routes following the React Router route patterns.",
+      "markdown": "[Example Here](https://github.com/ava-labs/posthog-route-censor-plugin/blob/main/src/assets/exampleRoutes.json).  See package [README](https://github.com/ava-labs/posthog-route-censor-plugin) for more details.",
       "type": "attachment",
       "hint": "See README for more details and example.",
       "required": true
