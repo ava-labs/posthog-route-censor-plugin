@@ -1,14 +1,14 @@
 {
-  "name": "AvaLabs URL Route Censor Plugin",
+  "name": "Route Censor",
   "description": "Removes segments of URLs based on route patterns.",
   "main": "dist/index.js",
   "config": [
     {
-      "markdown": "Removes segments of URLs based on route patterns. See [Github Repo](https://github.com/ava-labs/avalanche-posthog-plugins/tree/main/packages/route-censor) for more details."
+      "markdown": "Removes segments of URLs based on route patterns. See [Github Repo](https://github.com/ava-labs/posthog-route-censor-plugin) for more details."
     },
     {
       "key": "routes",
-      "name": "List of routes following the React Router route patterns.  See package README for more details.",
+      "name": "List of routes following the React Router route patterns.  [Example Here](https://github.com/ava-labs/posthog-route-censor-plugin/blob/main/src/assets/exampleRoutes.json).  See package [README](https://github.com/ava-labs/posthog-route-censor-plugin) for more details.",
       "type": "attachment",
       "hint": "See README for more details and example.",
       "required": true
