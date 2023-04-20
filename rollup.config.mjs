@@ -23,6 +23,10 @@ export default [
             src: 'plugin.json',
             dest: 'dist',
           },
+          {
+            src: 'logo.png',
+            dest: 'dist',
+          },
         ],
       }),
     ],
