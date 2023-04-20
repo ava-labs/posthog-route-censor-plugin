@@ -1,6 +1,7 @@
 {
   "name": "Route Censor",
   "description": "Removes segments of URLs based on route patterns.",
+  "url": "https://github.com/ava-labs/posthog-route-censor-plugin",
   "main": "dist/index.js",
   "config": [
     {
