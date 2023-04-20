@@ -7,7 +7,7 @@ export const setupPlugin = ({ global, config, attachments }: any) => {
   global.setOnceProperties = config.set_once_properties.split(',');
   global.routes = attachments?.routes?.contents ? JSON.parse(attachments?.routes?.contents) : undefined;
 
-  console.debug('Plugin set up with global config: ', global);
+  console.debug('Plugin set up with global config: ', JSON.stringify(global, null, 2));
 };
 
 /**
