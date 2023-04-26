@@ -5,7 +5,7 @@
   "author": "Connor Chevli <connor.chevli@avalabs.org>",
   "main": "dist/index.js",
   "private": false,
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "keywords": [
     "posthog",
     "analytics",
